@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>redis-inside-core</id>
+    <version>$version$</version>
+    <title>Redis Inside for dotnet-core</title>
+    <authors>Nripendra</authors>
+    <owners>Nripendra</owners>
+    <projectUrl>https://github.com/nripendra/redis-inside</projectUrl>
+    <iconUrl>https://raw.githubusercontent.com/nripendra/redis-inside/master/icon.png</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>
+      Start Redis from dotnet-core for integration tests. Contains redis runtime embedded in the dll.
+      forked from: https://github.com/poulfoged/redis-inside, by Monzoom (Poul Foged)
+    </description>
+    <copyright>Copyright 2017</copyright>
+    <tags>redis, integration, redis-64, caching</tags>
+    <releaseNotes>
+      Updated to Redis $version$
+    </releaseNotes>
+  </metadata>
+</package>

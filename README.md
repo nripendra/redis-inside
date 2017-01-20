@@ -1,7 +1,9 @@
-![](https://raw.githubusercontent.com/poulfoged/redis-inside/master/icon.png) &nbsp; ![](https://ci.appveyor.com/api/projects/status/5m2rpq1gokv0geu3?svg=true) &nbsp; ![](http://img.shields.io/nuget/v/redis-inside.svg?style=flat)
-#Redis Inside  
+![](https://raw.githubusercontent.com/nripendra/redis-inside/master/icon.png)
+#RedisInside-Core
 
-Run integration tests against Redis without having to start/install an instance.
+Forked from: https://github.com/poulfoged/redis-inside
+
+Run integration tests in dotnet-core against Redis without having to start/install an instance.
 
 Redis inside works by extracting the Redis executable to a temporary location and executing it. Internally it uses [Redis for windows](https://github.com/MSOpenTech/redis) ported by [MS Open Tech](https://msopentech.com/opentech-projects/redis).
 
@@ -31,7 +33,7 @@ using (var redis2 = new Redis())
 
 Simply add the Nuget package:
 
-`PM> Install-Package redis-inside`
+`PM> Install-Package redis-inside-core`
 
 ## Requirements
 
