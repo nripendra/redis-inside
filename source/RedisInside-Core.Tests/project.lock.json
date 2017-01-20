@@ -2576,7 +2576,7 @@
           "lib/netstandard1.3/System.Xml.XPath.XDocument.dll": {}
         }
       },
-      "RedisInside-Core/3.2.100": {
+      "RedisInside-Core/3.3.100": {
         "type": "project",
         "framework": ".NETStandard,Version=v1.6",
         "dependencies": {
@@ -7637,7 +7637,7 @@
         "ref/xamarinwatchos10/_._"
       ]
     },
-    "RedisInside-Core/3.2.100": {
+    "RedisInside-Core/3.3.100": {
       "type": "project",
       "path": "../RedisInside-Core/project.json",
       "msbuildProject": "../RedisInside-Core/RedisInside-Core.xproj"
@@ -7650,7 +7650,7 @@
       "NUnit >= 3.6.0",
       "NUnit3TestAdapter >= 3.6.0",
       "NUnitLite >= 3.6.0",
-      "RedisInside-Core >= 3.2.100-*",
+      "RedisInside-Core >= 3.3.100-*",
       "StackExchange.Redis >= 1.2.0",
       "dotnet-test-nunit >= 3.4.0-beta-3"
     ],

@@ -33,12 +33,14 @@ using (var redis2 = new Redis())
 
 Simply add the Nuget package:
 
-`PM> Install-Package redis-inside-core`
+`PM> Install-Package RedisInside-Core`
 
 ## Requirements
 
-You'll need .NET Framework 4.5.1 or later on 64 bit Windows to use the precompiled binaries.
+You'll need .NETCore 1.0 or later on 64 bit Windows to use the precompiled binaries.
 
 ## License
 
 Redis Inside is licensed under the two clause BSD license. Redis is copyrighted by Salvatore Sanfilippo and Pieter Noordhuis and released under the [terms of the three clause BSD license](http://redis.io/topics/license).
+
+RedisInside-Core is derivative of Redis Inside and is licensed under the same terms and conditions as Redis Inside.
